@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MenuTabuadaCPF.View.Tabuada;
+using MenuTabuadaCPF.View;
 
 namespace MenuTabuadaCPF
 {
@@ -18,7 +18,7 @@ namespace MenuTabuadaCPF
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaTabuada());
+            Application.Run(new TelaMenuPrincipal());
         }
     }
 }
